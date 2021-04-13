@@ -1,0 +1,12 @@
+.popup__wrapper-info {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 580px) {
+  .popup__wrapper-info {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+}

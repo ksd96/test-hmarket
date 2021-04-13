@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page">
+  <div class="page__sprite">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-close" viewBox="0 0 14 14">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1.7951 0.307991C1.38445 -0.102664 0.718644 -0.102664 0.30799 0.307991C-0.102664 0.718645 -0.102663 1.38445 0.307991 1.7951L5.51291 7.00002L0.30804 12.2049C-0.102614 12.6156 -0.102614 13.2814 0.30804 13.692C0.718694 14.1027 1.3845 14.1027 1.79515 13.692L7.00002 8.48714L12.2049 13.692C12.6155 14.1026 13.2813 14.1026 13.692 13.692C14.1026 13.2813 14.1026 12.6155 13.692 12.2049L8.48713 7.00002L13.692 1.79512C14.1027 1.38446 14.1027 0.71866 13.692 0.308005C13.2814 -0.102649 12.6156 -0.102649 12.2049 0.308005L7.00002 5.51291L1.7951 0.307991Z" fill="#B2B0AB"></path>
+</symbol><symbol id="icon-cross" viewBox="0 0 12 12">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.53553 1.05028C9.92605 0.659754 10.5592 0.659754 10.9497 1.05028C11.3403 1.4408 11.3403 2.07397 10.9497 2.46449L7.41421 6.00003L10.9497 9.53556C11.3403 9.92608 11.3403 10.5592 10.9497 10.9498C10.5592 11.3403 9.92605 11.3403 9.53553 10.9498L6 7.41424L2.46446 10.9498C2.07394 11.3403 1.44077 11.3403 1.05025 10.9498C0.659724 10.5592 0.659724 9.92608 1.05025 9.53556L4.58578 6.00003L1.05025 2.46449C0.659724 2.07397 0.659724 1.4408 1.05025 1.05028C1.44077 0.659754 2.07394 0.659754 2.46446 1.05028L6 4.58581L9.53553 1.05028Z"></path>
+</symbol><symbol id="icon-key" viewBox="0 0 13 13">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.68294 5.5634C7.88707 5.08313 8 4.55475 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8C4.55379 8 5.0813 7.88746 5.5609 7.684L6.68825 8.81135C6.74736 8.87046 6.83209 8.89611 6.91406 8.87972L8.18262 8.62601C8.35763 8.59101 8.51189 8.74538 8.47676 8.92036L8.26977 9.95139C8.23466 10.1263 8.38877 10.2806 8.56373 10.2458L9.59747 10.0398C9.77232 10.005 9.92639 10.1591 9.89148 10.334L9.6379 11.6036C9.62153 11.6856 9.64719 11.7703 9.70628 11.8294L9.8474 11.9705C9.9239 12.047 10.0231 12.0966 10.1302 12.1119L11.1202 12.2533C11.7802 12.3476 12.3458 11.7819 12.2516 11.122L12.1101 10.132C12.0948 10.0249 12.0452 9.92568 11.9687 9.84918L7.68294 5.5634ZM3.5 5C4.32843 5 5 4.32843 5 3.5C5 2.67157 4.32843 2 3.5 2C2.67157 2 2 2.67157 2 3.5C2 4.32843 2.67157 5 3.5 5Z" fill="#383736"></path>
+</symbol><symbol id="icon-ok" viewBox="0 0 13 10">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.9993 1.02216C12.3895 1.41273 12.3894 2.04567 11.999 2.43608L5.4682 8.96685C5.08962 9.34543 4.48003 9.35868 4.08537 8.9969L0.825891 6.00904C0.405327 5.62353 0.392011 4.96484 0.796652 4.56264C1.17554 4.18604 1.78354 4.17375 2.17734 4.53474L4.37812 6.55211C4.57545 6.733 4.88024 6.72638 5.06953 6.53709L10.5848 1.02187C10.9754 0.631232 11.6088 0.631362 11.9993 1.02216Z" fill="#64B851"></path>
+</symbol></svg>
+  </div>
+  <main class="main">
+    <div class="popup">
+      <div class="popup__content">
+        <div class="popup__wrapper">
+          <img src="./img/image-item.png" alt="план квартиры" class="popup__image">
+          <div class="popup__wrapper-info">
+            <h2 class="popup__title">2-к квартира</h2>
+            <ul class="popup__info-list">
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Этаж</h3>
+                <p class="popup__info-text">3 из 19</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Высота потолков</h3>
+                <p class="popup__info-text">3,2 м</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Отделка</h3>
+                <p class="popup__info-text">Предчистовая</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Общая площадь</h3>
+                <p class="popup__info-text">32,24 м²</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Жилая площадь</h3>
+                <p class="popup__info-text">22,24 м²</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Площадь кухни</h3>
+                <p class="popup__info-text">14,24 м²</p>
+              </li>
+            </ul>
+            <div class="popup__wrapper-status">
+              <div class="popup__status popup__status_color_green">
+                <svg class="popup__status-icon" width="11.8" height="8.5"><use xlink:href="#icon-ok"></use></svg>
+                <p class="popup__status-text popup__status-text_color_green">Вы были на просмотре</p>
+              </div>
+              <div class="popup__status popup__status_color_red">
+                <svg class="popup__status-icon popup__status-icon_color_red" width="10.5" height="10.5"><use xlink:href="#icon-cross"></use></svg>
+                <p class="popup__status-text popup__status-text_color_red">Дом аккредитован другим банком</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup__wrapper-price">
+          <p class="popup__price-text">Ваша цена по брони до <span class="popup__span popup__span_color_blue">19 сентября</span></p>
+          <p class="popup__price">3 312 666 Р</p>
+          <p class="popup__price-text">Текущая цена у застройщика дороже на <span class="popup__span popup__span_color_red">324 825 Р</span></p>
+          <button class="popup__buy" type="button">
+            <svg class="popup__buy-icon" width="12.2" height="12.2"><use xlink:href="#icon-key"></use></svg>
+            Выбрать для покупки
+          </button>
+        </div>
+        <button class="popup__close" type="button" aria-label="закрыти попап">
+          <svg class="popup__icon" width="14" height="14"><use xlink:href="#icon-cross"></use></svg>
+        </button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

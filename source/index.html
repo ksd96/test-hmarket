@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page">
+  <div class="page__sprite">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+  <main class="main">
+    <div class="popup">
+      <div class="popup__content">
+        <div class="popup__wrapper">
+          <img src="./img/image-item.png" alt="план квартиры" class="popup__image">
+          <div class="popup__wrapper-info">
+            <h2 class="popup__title">2-к квартира</h2>
+            <ul class="popup__info-list">
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Этаж</h3>
+                <p class="popup__info-text">3 из 19</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Высота потолков</h3>
+                <p class="popup__info-text">3,2 м</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Отделка</h3>
+                <p class="popup__info-text">Предчистовая</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Общая площадь</h3>
+                <p class="popup__info-text">32,24 м²</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Жилая площадь</h3>
+                <p class="popup__info-text">22,24 м²</p>
+              </li>
+              <li class="popup__info-item">
+                <h3 class="popup__info-title">Площадь кухни</h3>
+                <p class="popup__info-text">14,24 м²</p>
+              </li>
+            </ul>
+            <div class="popup__wrapper-status">
+              <div class="popup__status popup__status_color_green">
+                <svg class="popup__status-icon" width="11.8" height="8.5"><use xlink:href="#icon-ok"></use></svg>
+                <p class="popup__status-text popup__status-text_color_green">Вы были на просмотре</p>
+              </div>
+              <div class="popup__status popup__status_color_red">
+                <svg class="popup__status-icon popup__status-icon_color_red" width="10.5" height="10.5"><use xlink:href="#icon-cross"></use></svg>
+                <p class="popup__status-text popup__status-text_color_red">Дом аккредитован другим банком</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup__wrapper-price">
+          <p class="popup__price-text">Ваша цена по брони до <span class="popup__span popup__span_color_blue">19 сентября</span></p>
+          <p class="popup__price">3 312 666 Р</p>
+          <p class="popup__price-text">Текущая цена у застройщика дороже на <span class="popup__span popup__span_color_red">324 825 Р</span></p>
+          <button class="popup__buy" type="button">
+            <svg class="popup__buy-icon" width="12.2" height="12.2"><use xlink:href="#icon-key"></use></svg>
+            Выбрать для покупки
+          </button>
+        </div>
+        <button class="popup__close" type="button" aria-label="закрыти попап">
+          <svg class="popup__icon" width="14" height="14"><use xlink:href="#icon-cross"></use></svg>
+        </button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
